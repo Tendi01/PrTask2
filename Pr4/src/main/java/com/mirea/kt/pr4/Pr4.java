@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Pr4 {
 
     public static void main(String[] args) {
-         System.out.println("Practical task №3. Variant 3. Student Bursikova T.A. Group RIBO-04-21\n");
+         System.out.println("Practical task №4. Variant 3. Student Bursikova T.A. Group RIBO-04-21\n");
          Scanner scan = new Scanner(System.in);
         
         List<Doctor> doctors = new ArrayList<>();
