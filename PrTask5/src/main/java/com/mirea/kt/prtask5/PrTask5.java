@@ -10,6 +10,7 @@ import java.io.*;
  * @author user
  */
 public class PrTask5 {
+     System.out.println("Practical task №5 Variant 3. Student Bursikova T.A. Group RIBO-04-21");
 
      private static byte[] hexStringToByteArray(String s) { 
         int len = s.length(); 
