@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Поиск делимых чисел в заданном диапазоне</string>
+    <string name="name">РИБО-04-21 Бурсикова Т.А. 3 вариант</string>
+    <string name="range1">Введите начало диапазона чисел </string>
+    <string name="range2">Введите конец диапазона чисел </string>
+    <string name="divider">Введите делитель </string>
+    <string name="result">Результат</string>
+    <string name="start">Запуск</string>
+
+</resources>
