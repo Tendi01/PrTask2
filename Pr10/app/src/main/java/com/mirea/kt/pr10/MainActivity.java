@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             String range1 = etRange1.getText().toString();
             String range2 = etRange2.getText().toString();
             String divider = etDivider.getText().toString();
-            if (!range1.isEmpty() && !divider.isEmpty() && !range2.isEmpty() ) {
+            if (!range1.isEmpty() && !divider.isEmpty() && !range2.isEmpty() && Integer.parseInt(divider)>0 ) {
                 String numbers="";
 
                 for ( int i=Integer.parseInt(range1); i<=Integer.parseInt(range2); i++) {
