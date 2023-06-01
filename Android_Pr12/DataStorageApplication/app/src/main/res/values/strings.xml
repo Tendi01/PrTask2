@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataStorageApplication</string>
+    <string name="name">Имя и Фамилия</string>
+    <string name="specialty">Специальность</string>
+    <string name="certificationFlag">Флаг об аттестации</string>
+    <string name="add">Добавить</string>
+    <string name="next">Продолжить</string>
+    <string name="incorrect_value">Вы ввели некорректное значение</string>
+    <string name="insert_error">При добавлении произошла ошибка</string>
+    <string name="insert_success">Запись успешно добавлена</string>
+</resources>
