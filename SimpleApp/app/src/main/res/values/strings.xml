@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleApp</string>
+    <string name="hi">Привет</string>
+    <string name="bye">Пока</string>
+    <string name="start">Старт</string>
+    <string name="enter_value_edit">Enter value</string>
+    <string name="exit">Exit</string>
+</resources>
