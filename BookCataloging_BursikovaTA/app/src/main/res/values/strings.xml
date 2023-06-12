@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Каталогизатор книг</string>
+    <string name="name"> Разработчик: Бурсикова Т.А., группа РИБО-04-21</string>
+    <string name="enter_app">Вход в приложение</string>
+    <string name="enter">Войти</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="result">Результат</string>
+    <string name="shelfNumber">Номер полки</string>
+    <string name="vendorCode">Артикул</string>
+    <string name="author">Автор</string>
+    <string name="rackNumber">Номер стеллажа</string>
+    <string name="title">Название книги</string>
+</resources>
