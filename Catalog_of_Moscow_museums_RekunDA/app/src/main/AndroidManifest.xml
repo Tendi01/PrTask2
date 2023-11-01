@@ -15,8 +15,12 @@
         android:theme="@style/Theme.Catalog_of_Moscow_museums_RekunDA"
         tools:targetApi="31">
         <activity
-            android:name=".CatalogActivity"
+            android:name=".MuseumsActivity"
             android:exported="false" />
+        <activity
+            android:name=".CatalogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Catalog_of_Moscow_museums_RekunDA.NoActionBar"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
