@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MuseumsApp</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="Authorization">Авторизация</string>
+    <string name="Login">Логин</string>
+    <string name="Password">Пароль</string>
+    <string name="Login_button">Войти</string>
+    <string name="creator">Дмитрий Рекун</string>
+</resources>
