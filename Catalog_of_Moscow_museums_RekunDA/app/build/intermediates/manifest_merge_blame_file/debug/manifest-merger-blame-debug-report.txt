@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mirea.kt.android2023"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.mirea.kt.android2023.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.mirea.kt.android2023.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:7:5-33:19
+20        android:allowBackup="true"
+20-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:10:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:11:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:12:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:13:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:14:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Catalog_of_Moscow_museums_RekunDA" >
+30-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:15:9-71
+31        <activity
+31-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:17:9-19:40
+32            android:name="com.mirea.kt.android2023.MuseumsActivity"
+32-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:18:13-44
+33            android:exported="false" />
+33-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:19:13-37
+34        <activity
+34-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:20:9-23:89
+35            android:name="com.mirea.kt.android2023.CatalogActivity"
+35-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:21:13-44
+36            android:exported="false"
+36-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:22:13-37
+37            android:theme="@style/Theme.Catalog_of_Moscow_museums_RekunDA.NoActionBar" />
+37-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:23:13-87
+38        <activity
+38-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:24:9-32:20
+39            android:name="com.mirea.kt.android2023.MainActivity"
+39-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:25:13-41
+40            android:exported="true" >
+40-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:26:13-36
+41            <intent-filter>
+41-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:28:17-69
+42-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:30:17-77
+44-->C:\Users\user\AndroidStudioProjects\Catalog_of_Moscow_museums_RekunDA\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50            android:authorities="com.mirea.kt.android2023.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
