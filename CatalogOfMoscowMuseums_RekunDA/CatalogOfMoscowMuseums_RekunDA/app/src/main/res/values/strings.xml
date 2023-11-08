@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Каталог музеев Москвы</string>
+    <string name="Authorization">Авторизация</string>
+    <string name="Login">Логин</string>
+    <string name="Password">Пароль</string>
+    <string name="Login_button">Войти</string>
+    <string name="creator">Разработчик: Рекун Д.А., группа РИБО-02-21</string>
+    <string name="museums">КАТАЛОГ МУЗЕЕВ</string>
+</resources>
